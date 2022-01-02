@@ -1,0 +1,62 @@
+New for Version 1.00 Alpha:
+
+        - Format change for USER.REC and MONSTER.REC. Versions 0.98
+                and 0.99 are NO LONGER COMPATIBLE with this version!
+                The previous format couldn't hold enough GPs, XPs etc,
+                so I had to change the format. Please reset your game
+                by reinstalling it. (Just copy over the old version,
+                and run reset)
+        - Fixed the "Remote User sees garbage, local mode fine!" bug.
+                This bug was caused because some BBS programs didn't
+                COMPLETELY fill out the dropfile, and ED&D ended up
+                opening the com port at 0 baud. If you still have remote
+                user problems, please contact me!
+        - Added Cindy to the Inn!
+        - Started making WHATSNEW.TXT :)
+        - Added more ANSis
+        - Added more special encounters
+        - ED&D will now time-out after 5 minutes of inactivity, regardless
+                of the user's access level or time.
+
+New for Version 1.01 Alpha:
+
+	- Fixed a few spelling errors
+	- Added more ANSIs (keep em' comin'!)
+	- Limited the length of a character's name, so it doesn't screw
+		up the top warriors listing.
+	- Cindy now forgets her last fling during the daily maintenance
+    - Replaced the door's comm port routines with my very own. The
+        new routines are smaller, faster and more reliable,
+        however the door now REQUIRES a FOSSIL driver.
+        (see the DOCs for full specifications!)
+    - The door no longer reads and uses the comm port speed taken
+        from the dropfile. The door uses whatever speed is
+        currently set. (ie. it doesn't change the speed)
+    - Re-written clock routines (please inform me if you have
+        any problems related to the clock)
+    - Removed suggestions box. To send me a comment, etc. call
+        Five Starr or send E-Mail.
+    - Removed download ED&DANSI.ZIP from main menu. Waste of code.
+        To download this file, call Five Starr.
+    - Added my PGP public key
+
+New for Version 1.02 Beta:
+
+    - This will be the last "testing" version. The next version will
+        be an official release. I don't know what will be so official
+        about it though. :)
+    - Fixed the Time Left display in the character sheet and battle
+        screen.
+    - You can now kill anybody, regardless of level in the country side.
+    - Fixed a bug with the Bank and higher numbers (100,000+). It wouldn't
+        trade platinum correctly and wouldn't allow you to enter numbers
+        bigger than 5 digits, in some places. Also, many places wouldn't
+        support purchases, etc. of greater than 32,000 or 64,000 GPs.
+        All this is now fixed (I hope :) ).
+    - Improved time & date displaying.
+    - Changed back to the old time routines.
+    - Add DORINFO1.DEF dropfile support.
+    - Added Multi-Tasker support and time slicing
+    - Added filesharing and locking via share (if loaded). Please inform
+      me if there seems to be a 'Share Violation' or 'Access Denied'
+      error that doesn't seem to go away.

@@ -1,0 +1,107 @@
+ÜÛÛÛÛÛÛ            ÛÛÛÛÛÛÜ              ÛÛ      ÛÛÛÛÛÛÜ
+ÛÛÜÜÜÜ             ÛÛ   ÛÛ            ÜÜÛÛÜÜ    ÛÛ   ÛÛ
+ÛÛ฿฿฿฿             ÛÛ   ÛÛ           ÛÛ฿ÛÛ฿฿    ÛÛ   ÛÛ
+฿ÛÛÛÛÛÛ NHANCED    ÛÛÛÛÛÛ฿ RAGONS    ฿ÛÛÛ฿      ÛÛÛÛÛÛ฿ UNGEONS
+ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤ
+SYSOP.DOC - How to setup and maintain the ED&D Door Game.
+ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤ
+
+ Section                                                Keyword
+ออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ
+ Warning                                                Section.1
+ Requirements                                           Section.2.1
+ Installation                                           Section.2.2
+ Upgrading                                              Section.3
+ Contacting The Author                                  Section.4
+ออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ
+
+
+Section.1
+        WARNING!I am NOT responsible for ANY damage done by this
+                program. I have done my best to make it BUG-FREE,
+                however you can never be 100% sure. Use at your
+                own risk.
+
+Section.2.1
+        ED&D requirements:
+            - BBS software that supports the DOOR.SYS or DORINFO1.DEF
+                  interface dropfile formats
+            - 640Kb RAM, try to make as much free as possible
+            - DESQView auto-detected and supported
+            - Multi-Node Compatible
+            - A FOSSIL driver (X00, BNU etc..)
+            - Supports COM1-COM255
+
+        All communications is done via the FOSSIL driver. Because of
+        this, you can have ports re-mapped (ie. non-standard IRQs &
+        Addresses) different kinds of flow control and super high
+        speeds and this door will still work fine. Communications are
+        more standardized and thus more stable. You communications setup
+        is only limited by your FOSSIL driver's abilities.
+
+Section.2.2
+        ED&D is VERY easy to install:
+            1 - Unarchive all the files into their own dir.
+            2 - Make a .BAT file that moves the dropfile into the ED&D
+                    directory and runs ED&D.EXE. Then it should change
+                    back into the BBS's directory.
+                E.G.:
+                ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤ
+                @echo off
+                copy \renegade\door.sys \ed&d    <Moves the dropfile
+                cd \ed&d                         <Goes to the ED&D Dir.
+                ed&d                             <Runs ED&D.EXE
+                copy \ed&d\door.sys \renegade    <Move the dropfile back
+                cd \renegade                     <Goes back to the BBS Dir.
+                ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤ
+            3 - Make a menu option in your BBS software that creates
+                a dropfile and executes the above .BAT file.
+
+            You may further customize ED&D by using a plain ASCII
+            text editor (like the DOS editor) and editing the ED&D.INI file.
+
+Section.3
+        NOTE! You can't upgrade version 0.98 & 0.99 to this version!
+              This is because the database format has changed to allow
+              greater values. Please reinstall the new version and run
+              RESET.EXE.
+
+        These are the steps to upgrading ED&D:
+            1 - Unarchive the NEW version into a temporary directory
+            2 - Delete the following files from the NEW version:
+                    USER.REC INN.REC ED&D.INI
+            3 - Copy/Move all the remaining files from the temporary
+                directory OVER your old game.
+
+Section.4
+        Contact me if you have ANY comments, suggestions, bug reports,
+            ideas, etc...
+
+            InterNet Email:      Alex_Demko@MBnet.mb.ca
+                                 Alex_D@sys6626.bison.mb.ca
+            FidoNet: Alex_Demko@MBnet.mb.ca ON 1:1/31
+            At Five Starr BBS (204-632-0596), send mail to Crusader (#2)
+
+        You may also receive the latest version of ED&D and
+        other programs made by me at Five Starr BBS (Guest account
+        available).
+
+        Future versions MAY be protected with a PGP signature on the
+        EXE file(s). To test the integrity of a file you type:
+            PGP xxx.PGP xxx.EXE
+        (note that xxx must be the same for both files)
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: 2.6
+
+mQCNAi4r59EAAAEEANUVAjbl6wDLePs0KZNyD6aRCqPhz09KtrqOjcOUB4JbPLNr
+OPF59/ft4PRzB8pbLhK0qsX39bt2lPdTOQIwAMwfjVwjkaLK57iVpFhvi1+2hmCr
+pJjRHVNaPEaqf2VE4/24+76VhthQg/sr90qGFDnHKSn4dRSJmlivi/f0SqqNAAUR
+tCZBbGV4IEIuIERlbWtvIDxhbGV4X2RlbWtvQG1ibmV0Lm1iLmNhPokAlQIFEC4s
+j3FYr4v39EqqjQEB3pUEAILKGnYQV189sRi/Jofqp3EvErDX26ePWPd/X+ioXQpw
+hYHXD3Zp7KlXlU//J6l7mi5mSSI0hVac4XVBOzcNgYfU3v343UX+CW3aBfF2G/I1
+MAfh5806kEU4BBrm4Gha0f/oaEsIllY5jxAzu4zj5WoAIixCS43xRmbGFhfMm/lB
+tCpBbGV4IEIuIERlbWtvIDxhbGV4X2RAc3lzNjYyNi5iaXNvbi5tYi5jYT4=
+=5rUf
+-----END PGP PUBLIC KEY BLOCK-----
+

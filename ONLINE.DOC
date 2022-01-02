@@ -1,0 +1,74 @@
+[2J[0;36m
+
+[32mÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+ºEnhanced Dragons & Dungeons Door Gameº
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+
+
+Introduction
+ÄÄÄÄÄÄÄÄÄÄÄÄ
+[36m    ED&D is a thrilling fantasy door game, that is very easy to
+    learn. You start off as a young warrior, with tremendous ambition
+    in becoming the most famous warrior in the land. You start by
+    choosing your profession, and race, along with other statistics,
+    that will help you on your quest. You quickly find yourself
+    in the midst of a town, eager for your gold. You slowly work
+    up your knowledge and money bag, challenging stronger and stronger
+    warriors until you get to your final foe....
+    
+    Your destiny is in your hands alone....
+
+[32mBeginner's Strategy
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+[36m    You should start by buying the best weapon you can. Then go
+    to the country side and battle a few enemies in the forest.
+    When you are weak, use a heal potion. When you are done, take
+    your money back to the bank and sell any platinum pieces you
+    have won. Now spend your money on a new weapon, some
+    new armor, more heal potions and a room at the inn.
+    
+    Continue working up your warrior as you get the hang of the
+    game.
+    
+[32mTips n' Tricks
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+[36m        - Never quit the day on a empty stomach, the night
+          alone could kill you.
+
+        - Use your money wisely, and only buy what you need.
+        
+        - If you're at 2400 baud, try toggling ANSI off, this will
+          speed up play a bit.
+
+        - Try trading Platinum. Because it's value fluctuates, buy
+          it when it's value is low, and sell it when it's value
+          is high. You can double your money in one day like this.
+
+[32mCondition Meter
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+[36m        HP      Condition
+        
+        100%    Perfect
+        50-99%  Okay
+        25-49%  Hurt
+        0-24%   Dying
+        <0%     Dead
+
+[32mCalculating Hit Percentage
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+[36m        ED&D uses the Advanced Dungeons & Dragons battle system.
+        This is calculated by takeing the attackers THAC0 (To Hit
+        Armor Class 0) and subtracting the defender's AC (armor class).
+        This is the number you must beat on a d20 (one 20 sided die;
+        which produces a random number from 1-20).        
+        
+        EXAMPLE:
+            Fighter's THAC0=18
+            Goblin's AC=5
+            
+        The fighter must get 13 (18-5=13) or more on a d20.
+        This is 7/20 or 35% chance to hit.
+
+[0m

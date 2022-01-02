@@ -1,0 +1,8 @@
+
+     컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+       ED&D is currently in use
+     컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+ ED&D is currently being used on another
+node. If this is a one line BBS or nobody
+ else is online, then tell the SysOp to
+     delete the file "INUSE.TXT".
